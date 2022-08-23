@@ -4,14 +4,9 @@ import typescriptLogo from './typescript.svg'
 import { setupCounter } from './counter'
 
 const appEl = document.querySelector<HTMLDivElement>('#app')
-const counterEl = document.querySelector<HTMLButtonElement>('#counter')
 
 if (!appEl) {
   throw new Error('#app not found')
-}
-
-if (!counterEl) {
-  throw new Error('#counter not found')
 }
 
 appEl.innerHTML = `
@@ -31,5 +26,11 @@ appEl.innerHTML = `
     </p>
   </div>
 `
+
+const counterEl = document.querySelector<HTMLButtonElement>('#counter')
+
+if (!counterEl) {
+  throw new Error('#counter not found')
+}
 
 setupCounter(counterEl)
