@@ -1,4 +1,5 @@
-import './style.css'
+import 'modern-normalize'
+import './style.scss'
 import typescriptLogo from './typescript.svg'
 import { setupCounter } from './counter'
 

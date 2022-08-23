@@ -11,10 +11,10 @@ export default defineConfig(({ command, mode }) => {
       __APP_ENV__: env.APP_ENV,
     },
     server: {
-      port: 3030,
+      port: 3000,
     },
     preview: {
-      port: 8080,
+      port: 3000,
     },
   }
 })
