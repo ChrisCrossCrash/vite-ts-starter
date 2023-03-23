@@ -25,3 +25,6 @@ dist-ssr
 
 # ES Lint
 .eslintcache
+
+# SSL certificates
+*.pem
