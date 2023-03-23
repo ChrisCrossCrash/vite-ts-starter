@@ -1,1 +1,26 @@
-@use 'modern-normalize';
+// @use 'modern-normalize';
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+input[type='checkbox'] {
+  margin: 0;
+}

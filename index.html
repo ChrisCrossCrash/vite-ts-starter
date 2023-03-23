@@ -2,12 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Progress Tracker</title>
   </head>
   <body>
-    <p>TODO: Make something</p>
+    <h1>Progress Tracker</h1>
+    <div id="app">
+      <table>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>No devices after 10:30 PM</th>
+            <th>In bed by 11 PM</th>
+            <th>30 mins exercise</th>
+            <th>No alcohol</th>
+            <th>Vitamin D (AM)</th>
+            <th>Vitamin D (PM)</th>
+          </tr>
+        </thead>
+        <tbody id="trackerBody"></tbody>
+      </table>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
