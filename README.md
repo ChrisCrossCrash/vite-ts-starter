@@ -19,11 +19,9 @@ To use this starter project as a base for your application, click the "Use this 
 Once you have created your repository, clone it to your local machine:
 
 ```
-
 git clone https://github.com/user/your-repo.git
 cd your-repo
-npm install
-
+yarn install
 ```
 
 Replace https://github.com/user/your-repo.git with the actual URL of your repository.
@@ -37,9 +35,7 @@ Modify the source files in the `src` folder to build your application, then use 
 Start the development server:
 
 ```
-
-npm run dev
-
+yarn dev
 ```
 
 This will start the development server on port 3000 by default.
@@ -49,9 +45,7 @@ This will start the development server on port 3000 by default.
 Build the application for production:
 
 ```
-
-npm run build
-
+yarn build
 ```
 
 This will compile the TypeScript files and bundle the application using Vite, outputting the result in the `dist` folder.
@@ -61,9 +55,7 @@ This will compile the TypeScript files and bundle the application using Vite, ou
 Preview the production build:
 
 ```
-
-npm run preview
-
+yarn preview
 ```
 
 This will start a preview server on port 3000, serving the content from the `dist` folder.
@@ -73,25 +65,19 @@ This will start a preview server on port 3000, serving the content from the `dis
 Format the code using Prettier:
 
 ```
-
-npm run format
-
+yarn format
 ```
 
 Lint the TypeScript code using ESLint:
 
 ```
-
-npm run lint
-
+yarn lint
 ```
 
 Lint the CSS and SCSS code using Stylelint:
 
 ```
-
-npm run stylelint
-
+yarn stylelint
 ```
 
 ## Environment Variables
@@ -103,17 +89,13 @@ Vite will load the environment variables based on the current mode. All variable
 For example, create a `.env.development` file for development mode:
 
 ```
-
 VITE_API_URL=https://api.example.com/development
-
 ```
 
 And a `.env.production` file for production mode:
 
 ```
-
 VITE_API_URL=https://api.example.com/production
-
 ```
 
 In your code, access the environment variable like this:
@@ -122,8 +104,6 @@ In your code, access the environment variable like this:
 console.log(import.meta.env.VITE_API_URL)
 ```
 
-You can learn more about how Vite handles environment variables in the [documentation](https://vitejs.dev/guide/env-and-mode.html).
-
 ## License
 
-This project is licensed under the [MIT License](./LICENSE).
+This project is licensed under the [MIT License](/LICENSE).
