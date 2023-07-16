@@ -1,0 +1,15 @@
+{
+  // Let Stylelint validate the CSS and SCSS files.
+  "css.validate": false,
+  "scss.validate": false,
+  "stylelint.validate": [
+    "css",
+    "scss"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true
+  },
+  "prettier.documentSelectors": [
+    "**/*.liquid"
+  ]
+}
