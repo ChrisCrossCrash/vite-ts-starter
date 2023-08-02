@@ -25,3 +25,6 @@ dist-ssr
 
 # ES Lint
 .eslintcache
+
+# PNPM
+pnpm-lock.yaml
