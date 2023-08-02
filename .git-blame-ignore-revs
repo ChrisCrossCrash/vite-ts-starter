@@ -1,0 +1,6 @@
+# This file contains a list of commits to be ignored while using `git blame`.
+# To add this to the project's Git config, execute the following:
+# git config blame.ignoreRevsFile .git-blame-ignore-revs
+# https://git-scm.com/docs/git-blame#Documentation/git-blame.txt---ignore-revs-fileltfilegt
+
+9599d41fa37d2ee1d3fd09c6159ed72378f56b4a
