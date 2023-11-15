@@ -9,7 +9,4 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.stylelint": true
   },
-  "prettier.documentSelectors": [
-    "**/*.liquid"
-  ]
 }
