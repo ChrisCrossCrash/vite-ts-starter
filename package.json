@@ -9,7 +9,9 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "format": "prettier --write .",
-    "lint": "eslint ."
+    "format:style": "stylelint '**/*.{css,scss}' --fix",
+    "lint": "eslint .",
+    "lint:style": "stylelint '**/*.{css,scss}'"
   },
   "devDependencies": {
     "@types/node": "^18.18.9",
