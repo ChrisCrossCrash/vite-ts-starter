@@ -14,19 +14,19 @@
     "lint:style": "stylelint 'src/**/*.{css,scss}'"
   },
   "devDependencies": {
-    "@types/node": "^20.10.5",
-    "@typescript-eslint/eslint-plugin": "^6.14.0",
-    "@typescript-eslint/parser": "^6.14.0",
-    "eslint": "^8.55.0",
+    "@types/node": "^20.11.0",
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1",
+    "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "modern-normalize": "^2.0.0",
     "prettier": "^3.1.1",
-    "sass": "^1.69.5",
-    "stylelint": "^16.0.2",
-    "stylelint-config-css-modules": "^4.3.0",
-    "stylelint-config-standard": "^35.0.0",
-    "stylelint-config-standard-scss": "^12.0.0",
+    "sass": "^1.69.7",
+    "stylelint": "^16.1.0",
+    "stylelint-config-css-modules": "^4.4.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard-scss": "^13.0.0",
     "typescript": "^5.3.3",
-    "vite": "^5.0.9"
+    "vite": "^5.0.11"
   }
 }
