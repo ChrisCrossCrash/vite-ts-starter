@@ -21,7 +21,7 @@ Once you have created your repository, clone it to your local machine:
 ```
 git clone https://github.com/user/your-repo.git
 cd your-repo
-yarn install
+npm install
 ```
 
 Replace https://github.com/user/your-repo.git with the actual URL of your repository.
@@ -35,7 +35,7 @@ Modify the source files in the `src` folder to build your application, then use 
 Start the development server:
 
 ```
-yarn dev
+npm run dev
 ```
 
 This will start the development server on port 3000 by default.
@@ -45,7 +45,7 @@ This will start the development server on port 3000 by default.
 Build the application for production:
 
 ```
-yarn build
+npm run build
 ```
 
 This will compile the TypeScript files and bundle the application using Vite, outputting the result in the `dist` folder.
@@ -55,7 +55,7 @@ This will compile the TypeScript files and bundle the application using Vite, ou
 Preview the production build:
 
 ```
-yarn preview
+npm run preview
 ```
 
 This will start a preview server on port 3000, serving the content from the `dist` folder.
@@ -65,19 +65,19 @@ This will start a preview server on port 3000, serving the content from the `dis
 Format the code using Prettier:
 
 ```
-yarn format
+npm run format
 ```
 
 Lint the TypeScript code using ESLint:
 
 ```
-yarn lint
+npm run lint
 ```
 
 Lint the CSS and SCSS code using Stylelint:
 
 ```
-yarn stylelint
+npm run lint:style
 ```
 
 ## Environment Variables
